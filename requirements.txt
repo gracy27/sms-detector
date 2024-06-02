@@ -1,3 +1,4 @@
  scikit-learn
  nltk
+streamlit==1.27.2
  
