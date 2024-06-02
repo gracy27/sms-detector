@@ -31,7 +31,7 @@ def transform_text(text):
     return " ".join(y)
 
 
-vectorizer_path = r"C:\Users\DELL\vectorizer.pkl"
+vectorizer_path = r"vectorizer.pkl"
 print("Vectorizer path:", vectorizer_path)
 
 
@@ -39,7 +39,7 @@ with open(vectorizer_path, 'rb') as file:
     tfidf = pickle.load(file)
 
 
-model_path=r"C:\Users\DELL\model.pkl"
+model_path=r"model.pkl"
 print("Model path:", model_path)
 
 
